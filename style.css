@@ -27,7 +27,7 @@
   display: grid;
 /*   grid-template-columns: 1fr 1fr; */
        grid-template-columns: 1fr;
-  height: 75%;
+  height: 50%;
 
   padding: 10px;
   row-gap: 5px;
