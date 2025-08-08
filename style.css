@@ -25,7 +25,7 @@
 
 /* MOBILE RESPONSIVENESS MOBILE PORTRAIT 2 START */
 
-
+@media screen and (max-width: 320px) { 
  .grid-content {
   display: grid;
 /*   grid-template-columns: 1fr 1fr; */
