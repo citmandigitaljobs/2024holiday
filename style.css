@@ -40,7 +40,7 @@
   border-color: #c0c0c0;
   border-left: none;
   border-right: none;
-    border: 10px solid magenta;
+/*     border: 10px solid magenta; */
 }
     
   .content {
@@ -61,7 +61,7 @@
   border-right: none;
        justify-content: center;
   align-items: center;
-    border: 10px solid green;
+/*     border: 10px solid green; */
 }
   
     .text {
@@ -74,7 +74,7 @@
    flex-direction: row;
   justify-content: space-around;
   background-color: white;
-       border: 1px solid blue;
+/*        border: 1px solid blue; */
 }
 
 .image {
@@ -91,7 +91,7 @@
     object-fit: contain;
 /*    justify-content: center;
   align-items: center; */
-  border: 5px solid pink;
+/*   border: 5px solid pink; */
 }
 
 /* Next & previous buttons */
@@ -108,7 +108,7 @@
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-         border: 5px solid green;
+/*          border: 5px solid green; */
 }
   }
 
