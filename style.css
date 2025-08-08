@@ -27,7 +27,7 @@
   display: grid;
 /*   grid-template-columns: 1fr 1fr; */
        grid-template-columns: 1fr;
-  height: 50%;
+  height: 350px;
 /* width: auto; */
   padding: 10px;
   row-gap: 5px;
@@ -74,7 +74,8 @@
 .prev-image,
 .next-image {
   cursor: pointer;
-    position: relative;
+/*     position: relative; */
+  position: absolute;
   width: auto;
   margin-top: -22px;
   padding: 16px;
