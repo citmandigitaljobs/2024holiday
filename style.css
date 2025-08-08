@@ -22,29 +22,13 @@
   
 
 /* MOBILE RESPONSIVENESS MOBILE PORTRAIT */
-@media screen and (max-width: 320px) {
-   
-  .grid-content {
-  display: grid;
-/*   grid-template-columns: 1fr 1fr; */
-/*   height: max;
-    width: auto; */
-  padding: 10px;
-  row-gap: 5px;
-/*   column-gap: 10px;
-  border-style: solid;
-  border-bottom: 5px;
-  border-color: #c0c0c0;
-  border-left: none;
-  border-right: none; */
-    border: 10px solid purple;
-}
-  
+@media screen and (max-width: 320px) { 
    .grid-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: max;
-    width: auto;
+/*   grid-template-columns: 1fr 1fr; */
+       grid-template-columns: 1fr;
+  height: 85%;
+
   padding: 10px;
   row-gap: 5px;
   column-gap: 10px;
