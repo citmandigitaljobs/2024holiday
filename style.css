@@ -133,7 +133,7 @@
 
   .content {
     display: grid;
-    max-height: 500px;
+    max-height: 450px;
     column-gap: 10px;
     justify-content: center;
     align-items: center;
@@ -151,10 +151,10 @@
 
   .image {
     max-width: 100%;
-    max-height: 500px;
+    max-height: 425px;
     border-radius: 8px;
     object-fit: contain;
-    /*   border: 5px solid pink; */
+/*       border: 5px solid pink; */
   }
 
   /* Next & previous buttons */
