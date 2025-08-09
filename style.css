@@ -1,72 +1,25 @@
-/* .grid-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 50px;
-  padding: 10px;
-  row-gap: 5px;
-  column-gap: 10px;
-  border-style: solid;
-  border-bottom: 5px;
-  border-color: #c0c0c0;
-  border-left: none;
-  border-right: none;
-    border: 10px solid purple;
-} */
-
-/*   .grid-content {
-    width: 100%;
-  height: 100%; */
-/*  object-fit: contain; */
-/*      object-fit: fit; */
-/*         border: 10px solid green; */
-  
-
-
-
 /* MOBILE RESPONSIVENESS MOBILE PORTRAIT 2 START */
 
 @media screen and (max-width: 320px) { 
  .grid-content {
   display: grid;
-/*   grid-template-columns: 1fr 1fr; */
        grid-template-columns: 1fr;
   height: 100%;
-/* width: auto; */
   padding: 10px;
   row-gap: 5px;
   column-gap: 10px;
-  border-style: solid;
-  border-bottom: 5px;
-  border-color: #c0c0c0;
-  border-left: none;
-  border-right: none;
 /*     border: 10px solid magenta; */
 }
     
   .content {
   display: grid;
-/*   grid-template-columns: 1fr 1fr; */
-/*        grid-template-columns: 1fr; */
-/*   height: 350px; */
-/* width: auto; */
-/*       height: 320px; */
     max-height: 350px;
-/*   padding: 10px; */
-/*   row-gap: 5px; */
   column-gap: 10px;
-  border-style: solid;
-  border-bottom: 5px;
-  border-color: #c0c0c0;
-  border-left: none;
-  border-right: none;
        justify-content: center;
   align-items: center;
 /*     border: 10px solid green; */
 }
-  
-    .text {
-  color: brown;
-}
+
 
 /* START CAROUSEL */
 .arrows {
@@ -78,19 +31,10 @@
 }
 
 .image {
-/*     width: 100%;
-  height: 800px; */
-/*       width: auto;
- height: max; */
     max-width: 100%;
-/*   height: auto; */
-/*   max-height: 360px; */
       height: 320px;
    border-radius: 8px;
-/*   object-fit: contain; */
     object-fit: contain;
-/*    justify-content: center;
-  align-items: center; */
 /*   border: 5px solid pink; */
 }
 
@@ -106,8 +50,9 @@
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
   user-select: none;
+    border-radius: 25px;
+         border: 5px solid tan;
 /*          border: 5px solid green; */
 }
   }
@@ -119,143 +64,23 @@
    
   .grid-content {
   display: grid;
-/*   grid-template-columns: 1fr 1fr; */
        grid-template-columns: 1fr;
-  height: auto;
-/* width: auto; */
+  height: 100%;
   padding: 10px;
   row-gap: 5px;
   column-gap: 10px;
-  border-style: solid;
-  border-bottom: 5px;
-  border-color: #c0c0c0;
-  border-left: none;
-  border-right: none;
-/*     border: 10px solid magenta; */
+    border: 10px solid yellow;
 }
     
   .content {
   display: grid;
-/*   grid-template-columns: 1fr 1fr; */
-/*        grid-template-columns: 1fr; */
-/*   height: 350px; */
-/* width: auto; */
-/*       height: 320px; */
     max-height: 400px;
-/*   padding: 10px; */
-/*   row-gap: 5px; */
   column-gap: 10px;
-  border-style: solid;
-  border-bottom: 5px;
-  border-color: #c0c0c0;
-  border-left: none;
-  border-right: none;
        justify-content: center;
   align-items: center;
 /*     border: 10px solid green; */
 }
   
-    .text {
-  color: brown;
-}
-
-/* START CAROUSEL */
-.arrows {
-    display: flex;
-   flex-direction: row;
-  justify-content: space-around;
-  background-color: white;
-/*        border: 1px solid blue; */
-}
-
-.image {
-/*     width: 100%;
-  height: 800px; */
-/*       width: auto;
- height: max; */
-    max-width: 100%;
-/*   height: auto; */
-/*   max-height: 360px; */
-      height: 320px;
-   border-radius: 8px;
-/*   object-fit: contain; */
-    object-fit: contain;
-/*    justify-content: center;
-  align-items: center; */
-/*   border: 5px solid pink; */
-}
-
-/* Next & previous buttons */
-.prev-image,
-.next-image {
-  cursor: pointer;
-    position: relative;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-    color: brown;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-/*          border: 5px solid green; */
-}
-  }
-/* MEDIA QUERIES MOBILE LANDSCAPE FINISH
- */
-
-/* MOBILE RESPONSIVENESS TABLET PORTRAIT */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-.text {
-  color: brown;
-}
-
-/* START CAROUSEL */
-.arrows {
-    display: flex;
-   flex-direction: row;
-  justify-content: space-around;
-  background-color: white;
-/*        border: 1px solid blue; */
-}
-
-.image {
-/*   width: 800px; */
-    width: 100%;
-/*   height: 1000px; */
-    height: max;
-   border-radius: 8px;
-  object-fit: contain;
-/*   border: 5px solid pink; */
-}
-
-/* Next & previous buttons */
-.prev-image,
-.next-image {
-  cursor: pointer;
-    position: relative;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-    color: brown;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-/*          border: 5px solid green; */
-}
-  }
-/* MEDIA QUERIES TABLET PORTRAIT FINISH
- */
-
-/* MEDIA QUERIES TABLET LANDSCAPE */
-@media screen and (min-width: 769px) and (max-width: 990px) {
-  .text {
-  color: brown;
-}
-
 /* START CAROUSEL */
 .arrows {
     display: flex;
@@ -266,14 +91,11 @@
 }
 
 .image {
-/*   width: 800px; */
-/*     width: 100%;
-  height: 800px; */
-    width: 100%;
-  height: max;
+    max-width: 100%;
+      height: 300px;
    border-radius: 8px;
-  object-fit: contain;
-  border: 5px solid pink;
+    object-fit: contain;
+/*   border: 5px solid pink; */
 }
 
 /* Next & previous buttons */
@@ -288,9 +110,142 @@
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+
   user-select: none;
-         border: 5px solid green;
+    border-radius: 25px;
+         border: 5px solid tan;
+/*          border: 5px solid green; */
+}
+  }
+/* MEDIA QUERIES MOBILE LANDSCAPE FINISH
+ */
+
+/* MOBILE RESPONSIVENESS TABLET PORTRAIT */
+@media screen and (min-width: 481px) and (max-width: 760px) {
+.grid-content {
+  display: grid;
+       grid-template-columns: 1fr;
+  height: auto;
+  padding: 10px;
+  row-gap: 5px;
+  column-gap: 10px;
+    border: 10px solid green;
+}
+    
+  .content {
+  display: grid;
+    max-height: 500px;
+  column-gap: 10px;
+/*   border-style: solid; */
+/*   border-bottom: 5px; */
+/*   border-color: #c0c0c0; */
+/*   border-left: none; */
+/*   border-right: none; */
+       justify-content: center;
+  align-items: center;
+/*     border: 10px solid green; */
+}
+  
+
+
+/* START CAROUSEL */
+.arrows {
+    display: flex;
+   flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+/*        border: 1px solid blue; */
+}
+
+.image {
+max-width: 100%;
+   max-height: 500px;
+   border-radius: 8px;
+  object-fit: contain;
+/*   border: 5px solid pink; */
+}
+
+/* Next & previous buttons */
+.prev-image,
+.next-image {
+  cursor: pointer;
+    position: relative;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+    color: brown;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+
+  user-select: none;
+    border-radius: 25px;
+         border: 5px solid tan;
+/*          border: 5px solid green; */
+}
+  }
+/* MEDIA QUERIES TABLET PORTRAIT FINISH
+ */
+
+/* MEDIA QUERIES TABLET LANDSCAPE */
+@media screen and (min-width: 761px) and (max-width: 990px) {
+ .grid-content {
+  display: grid;
+
+       grid-template-columns: 1fr;
+  height: auto;
+  padding: 10px;
+  row-gap: 5px;
+  column-gap: 10px;
+    border: 10px solid orange;
+}
+    
+  .content {
+  display: grid;
+    max-height: 850px;
+  column-gap: 10px;
+       justify-content: center;
+  align-items: center;
+/*     border: 10px solid green; */
+}
+  
+/* START CAROUSEL */
+.arrows {
+    display: flex;
+   flex-direction: row;
+    justify-content: space-around;
+  background-color: white;
+/*        border: 2px solid magenta; */
+}
+
+.image {
+/*   width: 800px; */
+/*     width: 100%;
+  height: 800px; */
+    width: 100%;
+  height: 820px;
+   border-radius: 8px;
+  object-fit: contain;
+/*   border: 5px solid pink; */
+}
+
+/* Next & previous buttons */
+.prev-image,
+.next-image {
+  cursor: pointer;
+    position: relative;
+  
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+    color: #A65E2E;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+
+  user-select: none;
+  border-radius: 25px;
+         border: 5px solid tan;
 }
   }
 /* MEDIA QUERIES TABLET LANDSCAPE FINISH
@@ -299,9 +254,6 @@
 
 /* MOBILE RESPONSIVENESS MEDIUM DEVICE */
 @media screen and (min-width: 991px) and (max-width: 1024px) {
-    .text {
-  color: brown;
-}
 
 /* START CAROUSEL */
 .arrows {
@@ -337,7 +289,9 @@
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-         border: 5px solid green;
+
+         border: 5px solid tan;
+    
 }
   }
 /* MEDIA QUERIES MEDIUM DEVICE FINISH
@@ -345,9 +299,7 @@
 
 /* MOBILE RESPONSIVENESS LARGE DEVICE */
 @media screen and (min-width: 991px) and (max-width: 1024px) {
-      .text {
-  color: brown;
-}
+
 
 /* START CAROUSEL */
 .arrows {
@@ -391,9 +343,7 @@
 
 /* MOBILE RESPONSIVENESS EXTRA LARGE DEVICE */
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-        .text {
-  color: brown;
-}
+
 
 /* START CAROUSEL */
 .arrows {
@@ -437,9 +387,7 @@
 
 /* MOBILE RESPONSIVENESS EXTRA EXTRA LARGE DEVICE START */
 @media screen and (min-width: 1201px) {
-   .text {
-  color: brown;
-}
+
 
 /* START CAROUSEL */
 .arrows {
