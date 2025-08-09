@@ -193,7 +193,7 @@
 
   .content {
     display: grid;
-    max-height: 500px;
+    max-height: 450px;
     column-gap: 10px;
     justify-content: center;
     align-items: center;
@@ -211,7 +211,7 @@
 
   .image {
     width: 100%;
-    height: 470px;
+    height: 410px;
     border-radius: 8px;
     object-fit: contain;
     /*   border: 5px solid pink; */
@@ -251,7 +251,7 @@
 
   .content {
     display: grid;
-    max-height: 700px;
+    max-height: 650px;
     column-gap: 10px;
     justify-content: center;
     align-items: center;
@@ -269,7 +269,7 @@
 
   .image {
     width: 100%;
-    height: 650px;
+    height: 610px;
     border-radius: 8px;
     object-fit: contain;
     /*   border: 5px solid pink; */
