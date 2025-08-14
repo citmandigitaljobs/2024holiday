@@ -156,7 +156,7 @@
 
   .content {
     display: grid;
-    max-height: 250px;
+    max-height: 100px;
     column-gap: 10px;
     justify-content: center;
     align-items: center;
