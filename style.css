@@ -1,6 +1,85 @@
+/* STYLE THE NAVIGATION MENU */
+.page-navigation {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none; /* Remove bullets */
+  background-color: #dcdcdc;
+  padding: 15px;
+  align-items: center;
+  font-size: 12px;
+  color: white;
+}
+
+/* HIDE THE TOP NAVIGATION BAR FOR TABLET AND MOBILE  */
+/* MOBILE RESPONSIVENESS MOBILE PORTRAIT */
+/* HIDE PAGE NAVIGATION (TOP MENU LIST) */
+@media screen and (max-width: 320px) {
+  .page-navigation {
+    display: none;
+  }
+}
+
+
+/* STYLE THE LINKS IN HAMBURGER DROPDOWN */
+.topnav a {
+  color: #A65E2E;
+  font-size: 20px;
+  display: block;
+  justify-self: right;
+  text-decoration: none;
+}
+
+/* HIDE myLinks UNTIL HAMBURGER IS CLICKED */
+#myLinks {
+  display: none;
+  position: relative;
+  justify-self: right;
+  color: white;
+}
+
+/* CHANGE HAMBURGER SYMBOL AND LINK COLOUR ON MOUSE-OVER */
+/* .topnav a:hover {
+  background-color: white;
+} */
+
+/* END HAMBURGER MENU */
+
+/* HIDE HAMBURGER MENU FOR DESKTOP  */
+@media screen and (min-width: 1280px) {
+  .topnav {
+    display: none;
+  }
+}
+
+.topflexbox {
+  display: grid;
+}
+
+.exclude-menu {
+  background-image: url("https://i.imgur.com/ZTLB4n8.jpg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+/* START PHOTO SLIDESHOW */
+
+
 /* MOBILE RESPONSIVENESS MOBILE PORTRAIT 2 START */
 
 @media screen and (max-width: 320px) {
+    .page-navigation {
+    display: none;
+  }
+  
   .grid-content {
     display: grid;
     grid-template-columns: 1fr;
@@ -60,6 +139,10 @@
 
 /* MOBILE RESPONSIVENESS MOBILE LANDSCAPE */
 @media screen and (min-width: 321px) and (max-width: 480px) {
+      .page-navigation {
+    display: none;
+  }
+  
   .grid-content {
     display: grid;
     grid-template-columns: 1fr;
@@ -73,7 +156,7 @@
 
   .content {
     display: grid;
-    max-height: 330px;
+    max-height: 250px;
     column-gap: 10px;
     justify-content: center;
     align-items: center;
@@ -121,6 +204,10 @@
 
 /* MOBILE RESPONSIVENESS TABLET PORTRAIT */
 @media screen and (min-width: 481px) and (max-width: 760px) {
+     .page-navigation {
+    display: none;
+  }
+  
   .grid-content {
     display: grid;
     grid-template-columns: 1fr;
@@ -181,6 +268,10 @@
 
 /* MEDIA QUERIES TABLET LANDSCAPE */
 @media screen and (min-width: 761px) and (max-width: 990px) {
+       .page-navigation {
+    display: none;
+  }
+  
   .grid-content {
     display: grid;
     grid-template-columns: 1fr;
@@ -239,6 +330,10 @@
 
 /* MOBILE RESPONSIVENESS MEDIUM DEVICE */
 @media screen and (min-width: 991px) and (max-width: 1024px) {
+       .page-navigation {
+    display: none;
+  }
+  
   .grid-content {
     display: grid;
     grid-template-columns: 1fr;
@@ -297,6 +392,14 @@
 
 /* MOBILE RESPONSIVENESS EXTRA LARGE DEVICE */
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
+       .page-navigation {
+    display: none;
+  }
+  
+       .page-navigation {
+    display: none;
+  }
+  
   .grid-content {
     display: grid;
     grid-template-columns: 1fr;
@@ -357,6 +460,10 @@
 
 /* MOBILE RESPONSIVENESS EXTRA EXTRA LARGE DEVICE START */
 @media screen and (min-width: 1201px) {
+       .page-navigation {
+    display: none;
+  }
+  
   .grid-content {
     display: grid;
     grid-template-columns: 1fr;
