@@ -338,7 +338,7 @@
     padding: 10px;
     row-gap: 5px;
     column-gap: 10px;
-    border: 10px solid gold;
+    border: 10px solid BlueViolet;
   }
 
   .content {
@@ -467,7 +467,7 @@
 
   .content {
     display: grid;
-    height: 600px;
+    height: 580px;
     column-gap: 10px;
     justify-content: center;
     align-items: center;
@@ -485,7 +485,7 @@
 
   .image {
     width: 100%;
-    max-height: 600px;
+    max-height: 580px;
     border-radius: 8px;
     object-fit: contain;
     border: 5px solid pink;
